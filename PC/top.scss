@@ -42,9 +42,7 @@
                     a {
                         display: inline-block;
                         transform: scale(.9);
-                        transition: transform .8s;
-
-
+                        transition: transform .5s;
 
                         img {
                             display: block;
@@ -55,7 +53,7 @@
                         }
                     }
 
-                    &.slick-current {
+                    &.slick-center {
                         a {
                             transform: scale(1);
 
@@ -94,6 +92,8 @@
 
             li {
                 list-style: none;
+                max-width: 282px;
+                margin: 0 16px;
 
                 img {
                     display: block;

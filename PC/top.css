@@ -37,7 +37,7 @@
 .mainVisual_org .main-slide-wrap .mainslide-items .slick-list .slick-slide a {
   display: inline-block;
   transform: scale(0.9);
-  transition: transform 0.8s;
+  transition: transform 0.5s;
 }
 .mainVisual_org .main-slide-wrap .mainslide-items .slick-list .slick-slide a img {
   display: block;
@@ -45,7 +45,7 @@
   border-radius: 8px;
   width: 100%;
 }
-.mainVisual_org .main-slide-wrap .mainslide-items .slick-list .slick-slide.slick-current a {
+.mainVisual_org .main-slide-wrap .mainslide-items .slick-list .slick-slide.slick-center a {
   transform: scale(1);
 }
 .mainVisual_org .main-slide-wrap .mainslide-items .slick-arrow {
@@ -72,6 +72,8 @@
 }
 .mainVisual_org .pickup_org .pickup-items li {
   list-style: none;
+  max-width: 282px;
+  margin: 0 16px;
 }
 .mainVisual_org .pickup_org .pickup-items li img {
   display: block;
