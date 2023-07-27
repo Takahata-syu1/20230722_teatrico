@@ -44,6 +44,8 @@
                         transform: scale(.9);
                         transition: transform .8s;
 
+
+
                         img {
                             display: block;
                             height: auto;
@@ -56,6 +58,7 @@
                     &.slick-current {
                         a {
                             transform: scale(1);
+
                         }
                     }
                 }
@@ -139,7 +142,7 @@
             }
 
             .inner {
-                max-width: 300px;
+                width: 300px;
                 margin: 182px 0 0 auto;
                 position: relative;
 

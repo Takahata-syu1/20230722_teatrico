@@ -112,7 +112,7 @@
   left: 0;
 }
 .about-wrap .body .textArea .inner {
-  max-width: 300px;
+  width: 300px;
   margin: 182px 0 0 auto;
   position: relative;
 }
