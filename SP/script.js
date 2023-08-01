@@ -8,13 +8,3 @@ $(".mainslide-items").slick({
     prevArrow: '<img src="./assets//top_img/slick-arrow-left.svg" class="slide-arrow prev-arrow">',
     nextArrow: '<img src="./assets/top_img/slick-arrow-right.svg" class="slide-arrow next-arrow">',
 });
-
-$(".pickup-items").slick({
-    asNavFor: ".mainslide-items",
-    autoplay: false,
-    dots: false,
-    infinite: true,
-    centerMode: true,
-    centerPadding: '22%',
-    slidesToShow: 1,
-});

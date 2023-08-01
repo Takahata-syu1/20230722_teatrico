@@ -51,26 +51,6 @@
 .mainVisual_org .main-slide-wrap .mainslide-items .slick-arrow.next-arrow {
   right: 32px;
 }
-.mainVisual_org .pickup_org {
-  position: relative;
-  z-index: 1;
-  padding-bottom: 46px;
-}
-.mainVisual_org .pickup_org .pickup-items {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto 0px;
-}
-.mainVisual_org .pickup_org .pickup-items li {
-  list-style: none;
-  overflow: hidden;
-  margin: 0 8px;
-}
-.mainVisual_org .pickup_org .pickup-items li img {
-  display: block;
-  border: solid 1px #D0D0D0;
-  border-radius: 8px;
-}
 
 .about-wrap {
   position: relative;
