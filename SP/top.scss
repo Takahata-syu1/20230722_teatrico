@@ -5,11 +5,11 @@
         content: "";
         position: absolute;
         width: calc(100% - 30vw);
-        height: 540px;
+        height: 100%;
         background-color: #F0F0F0;
-        bottom: 0;
-        right: 0px;
-        border-radius: 0px 0px 0px 40px;
+        bottom: -56px;
+        right: 0;
+        border-radius: 0 0 0 40px;
     }
 
     .main-slide-wrap {
@@ -22,11 +22,11 @@
 
             &.tsubu_f {
                 top: 24px;
-                right: -62px;
+                right: -80px;
             }
 
             &.tsubu_b {
-                bottom: 12px;
+                bottom: -56px;
                 left: -16px;
             }
         }
@@ -106,8 +106,8 @@
                 p {
                     font-weight: normal;
                     margin-bottom: 40px;
-                    font-size: 16px;
-                    line-height: 2em;
+                    font-size: 1.4rem;
+                    line-height: 2.8rem;
                     letter-spacing: normal;
                 }
 

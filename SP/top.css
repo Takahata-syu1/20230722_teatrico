@@ -5,11 +5,11 @@
   content: "";
   position: absolute;
   width: calc(100% - 30vw);
-  height: 540px;
+  height: 100%;
   background-color: #F0F0F0;
-  bottom: 0;
-  right: 0px;
-  border-radius: 0px 0px 0px 40px;
+  bottom: -56px;
+  right: 0;
+  border-radius: 0 0 0 40px;
 }
 .mainVisual_org .main-slide-wrap {
   margin: 0 auto 16px;
@@ -21,10 +21,10 @@
 }
 .mainVisual_org .main-slide-wrap .tsubu.tsubu_f {
   top: 24px;
-  right: -62px;
+  right: -80px;
 }
 .mainVisual_org .main-slide-wrap .tsubu.tsubu_b {
-  bottom: 12px;
+  bottom: -56px;
   left: -16px;
 }
 .mainVisual_org .main-slide-wrap .mainslide-items {
@@ -88,8 +88,8 @@
 .about-wrap .body .textArea .inner p {
   font-weight: normal;
   margin-bottom: 40px;
-  font-size: 16px;
-  line-height: 2em;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
   letter-spacing: normal;
 }
 .about-wrap .body .textArea .inner a {
@@ -97,11 +97,16 @@
   display: inline-block;
   width: 233px;
   height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fff;
   color: #4D4D4D;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   border-radius: 22px;
   padding: 0 0 0 26px;
   font-weight: bold;
@@ -119,8 +124,11 @@
   border-top-color: rgb(27, 27, 27);
   border-right: 2px solid #1b1b1b;
   border-right-color: rgb(27, 27, 27);
-  transform: rotate(45deg) translateY(-50%);
-  transform-origin: top center;
+  -webkit-transform: rotate(45deg) translateY(-50%);
+          transform: rotate(45deg) translateY(-50%);
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-transition: 0.15s;
   transition: 0.15s;
 }
 .about-wrap .body .textArea .inner a:hover::after {
@@ -132,8 +140,11 @@
   bottom: -90px;
 }
 .about-wrap .body .imageArea figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .about-wrap .body .imageArea figure img {
   display: block;
@@ -142,8 +153,11 @@
   margin-bottom: 5px;
 }
 .about-wrap .body .imageArea figure div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .about-wrap .body .imageArea figure div img:first-child {
   margin-right: 5px;
-}/*# sourceMappingURL=top.css.map */
+}
+/*# sourceMappingURL=top.css.map */
